@@ -1,0 +1,421 @@
+<?php
+session_start();
+$db = mysqli_connect('localhost','','root','vignes');
+ 
+?>
+
+<!DOCTYPE html>
+<html id="html">
+
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Smile Solution</title>
+
+    <!--External Stylesheets css-->
+	<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet"> 
+	
+	
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--elegant icon font -->
+    <link rel="stylesheet" href="assets/css/elegant-icons.css">
+    <!--Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Owl-carousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--Template Stylesheets css-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <script src="assets/js/modernizr.js"></script>
+
+
+    <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+    <!-- Page Preloader -->
+
+    <div id="loading-page">
+        <div id="loading-center-page">
+            <div id="loading-center-absolute">
+
+                <div class="loader"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--header-->
+
+    <header>
+
+       
+
+           
+      
+
+    </header>
+    <!--Header-->
+
+    <!--Begin Hero Section-->
+
+    <section id="home" class="section-hero bg-color-1">
+
+  
+        <div class="section-hero-inner ">
+            <div class="section-hero-content clearfix ">
+                <div class="content-col-left ">
+
+                    <div class="content-col-inner ">
+                        <div class="hero-text ">
+						<h1 id="smile" style="font-family: 'Galada', cursive;">Smile Solution</h1>
+						<h2 id="h1_title" style="font-family: 'Arvo', serif;font-size:31px;
+    line-height: 133%;">Committed to dental excellence.</h2>
+                            
+                            <p style="font-family: 'Arvo', serif;">Get Treated With Expert </p>
+
+                        </div>
+
+                        <div>
+							<p id="phone_no">9884219332</p>
+						</div>
+
+                    </div>
+                </div>
+
+                <div class="content-col-right ">
+
+                    <div class="content-col-image ">
+                        <figure class="image ">
+                            <img src="assets/images/image1.png" alt="">
+
+                            <a href="https://www.youtube.com/embed/7e90gBu4pas" class="play-btn video-modal ">
+                  <img src="assets/images/btn-play.png" class="img-responsive hidden-xl " title=" " alt=" ">
+                </a>
+
+
+                        </figure>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--container-->
+    </section>
+
+    <!--End Hero Section-->
+
+
+    <!--About-->
+
+
+    <section id="about">
+
+        <!--container-->
+
+        <div class="container ">
+            <div class="row ">
+
+                <div class="pd-tp-50 clearfix ">
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp " id="slider">
+                        <div class="icon-block ">
+
+                            
+                    <div class="quote ">
+                        <img src="assets/images/quote.svg" alt="">
+
+                    </div>
+                    <div class="testimonial-caroussel pd-bt-80 mg-tp-60 ">
+
+                        <!--testimonial item -->
+
+
+                        <div class="item ">
+
+                            <div class="testimonial-item ">
+
+
+                                <div class="bottom-text-item ">
+
+                                    <p style="font-family: 'Arvo', serif;">
+                                        I am Raju Jain from Muscat have visited clinic recently to fix permanent tooth.  The entire team supported well. I am extremely happy and recommend the clinic for Dental issues. Well done team, keep it up.
+                                    </p>
+                                    <h3 style="font-family: 'Arvo', serif;">Murugavel</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--testimonial item -->
+                        <div class="item ">
+
+                            <div class="testimonial-item ">
+
+
+                                <div class="bottom-text-item ">
+
+                                    <p style="font-family: 'Arvo', serif;">
+                                        Excellent job. Went for wisdom teeth extraction and painless work done by the doctors. Detailed X-ray and affordable price.
+                                    </p>
+                                    <h3 style="font-family: 'Arvo', serif;">Gopi Nath</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--testimonial item -->
+                        <div class="item ">
+
+                            <div class="testimonial-item ">
+
+
+                                <div class="bottom-text-item ">
+
+                                    <p style="font-family: 'Arvo', serif;">
+                                        World class Treatment at affordable cost. All doctors are cordial. I highly recommend this clinic.
+                                    </p>
+                                    <h3 style="font-family: 'Arvo', serif;">Indhumathi</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp " id="login_form">
+							<!--Modal login -->
+
+   
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               
+                    <h3>Enquiry</h3>
+                    
+                    
+               
+                <div>
+                        <form class="form " action=" " method="post">
+
+                        <div class="form-group ">
+
+                            <input type="text" name="name" class="form-control" placeholder="Name">
+
+                           
+
+                        </div>
+                        <div class="form-group " >
+
+                            <input type="email" name="email" class="form-control" placeholder="Email*">
+
+                        
+
+                        </div>
+						 <div class="form-group ">
+
+                            <input type="text" name="Phone" class="form-control" placeholder="Phone Number*">
+
+                        
+
+                        </div>
+
+                     
+				<div class="">
+                    <button type="submit" name="send" class="btn btn-color">Call me</button>
+                </div>
+                    </form>
+					<?php
+					if(isset($_POST['send'])){
+						$name=$_POST['name'];
+						$email=$_POST['email'];
+						$phone=$_POST['phone'];
+						
+						
+						mysqli_query($db, "INSERT INTO tables('name','email','phone') VALUES ('$name','$email','$phone') ");
+					
+					?>
+					
+					
+                </div>
+               
+            </div>
+        </div>
+      </div>
+
+                    </div>
+
+            </div>
+
+        </div>
+        <!--container-->
+
+    </section>
+
+    <!--End About-->
+	<div class="row">
+    <div class="col-md-12 col-xs-12">
+        <div class="editable-content-holder align-center noMultiple ">
+            <style></style>
+            <div class="main-header editable-content font-size-34 bold" style="min-height:auto;line-height:1.8;color:rgb(25, 187, 154)">
+                <h2 class="service" style="font-family: 'Arvo', serif;">SERVICES</h2></div>
+        </div>
+    </div><div class="row" id="columm">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+	<img src="https://image2.jdomni.in/banner/1C/9D/A0/ABD1EF74760D9A2DA2BA4BCFD0_1510563315711.jpg" id="img1">
+	<div>
+		<h4 id="dental_imp" style="font-family: 'Arvo', serif;">Dental Implant</h4>
+		<h5 id="dental_para" style="font-family: 'Arvo', serif;">With reconstructive dentistry, we can repair and restore the beauty of your smile.</h5>
+	</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+	<img src="https://image3.jdomni.in/banner/97/E1/E9/22C2ABF38C823785B4C9EA3EE1_1510563376009.jpg" id="img2">
+	<div>
+		<h4 id="braces"style="font-family: 'Arvo', serif;">Braces</h4>
+		<h5 id="braces_para" style="font-family: 'Arvo', serif;">Braces are an ancient and assured method of correcting teeth misalignment successfully.</h5>
+	</div>
+	</div>
+    <div class="clearfix visible-sm"></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+	<img src="https://image1.jdomni.in/banner/1A/BB/91/496A6859C1599F3FEDC28D3F22_1510563403257.jpg" id="img3">
+	<div><h4 id="teeth" style="font-family: 'Arvo', serif;">Teeth Whitening</h4>
+		<h5 id="teeth_para" style="font-family: 'Arvo', serif;">Bleaching methods use carbamide peroxide which reacts with water to form hydrogen peroxide.</h5>
+	</div>
+	</div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+	<img src="https://image2.jdomni.in/banner/2E/2F/0F/74B29E589FC7D7A73857FFCEF0_1510563479058.jpg" id="img4">
+	<div>
+	<h4 id="prevention" style="font-family: 'Arvo', serif;">Prevention</h4>
+		<h5 id="prevention_para" style="font-family: 'Arvo', serif;">The most important part of preventive dentistry is to brush teeth fluoride toothpaste approved by ADA.</h5>
+	</div>
+	</div>
+</div> 
+
+
+   
+	
+	<div class="features-warpper pd-tp-50 clearfix ">
+
+                    <!--feature block-->
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" id="form_2">
+
+                        <div class="feature-block ">
+
+                            
+                            <h3 style="font-family: 'Arvo', serif;">Experience</h3>
+                            <p style="font-family: 'Arvo', serif;">
+Our clinic is one of the finest and most advanced dental clinics in town. </p>
+
+                        </div>
+
+                    </div>
+
+                    <!--feature block-->
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" id="form_2">
+
+                        <div class="feature-block ">
+
+                           
+                            <h3 style="font-family: 'Arvo', serif;">Flexible Schedule</h3>
+                            <p style="font-family: 'Arvo', serif;">
+We work during all state holidays, besides working till late during the regular days. </p>
+                        </div>
+                    </div>
+
+                    <!--feature block-->
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" id="form_2">
+
+                        <div class="feature-block ">
+
+                           
+                            <h3 style="font-family: 'Arvo', serif;">Best Price Guarantee</h3>
+                            <p style="font-family: 'Arvo', serif;">
+Experience state of art dentistry at affordable prices.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+    
+
+
+    <!--Footer -->
+		<div class="footer home1" id="html" >
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+					<i class="fas fa-map-marker-alt" id="addr"></i>
+					<h4 id="address" style="color:white;" style="font-family: 'Arvo', serif;">Address</h4>
+					<p id="address_1">No 44,Near Deepam Hospital,<br>Ramachandra Street Nehru Nagar,<br> Chrompet, Chennai, Tamil Nadu 600044</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12" >
+					<div class="col-md-6 col-sm-12 col-xs-12">
+					<i class="far fa-clock" id="work"></i>
+						<h4 id="working_hours" style="color:white;" style="font-family: 'Arvo', serif;">Working Hours</h4>
+						<p id="working_hours1">10.00AM To 1.00PM<br>
+						5.00PM To 10PM
+						</p>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+					<i class="fas fa-phone-volume" id="call"></i>
+					<h4 id="call_us" style="color:white;" style="font-family: 'Arvo', serif;">Call Us</h4>
+					<jdcmstagcontactno><div id="call_us1">9884719836</div><div id="call_us1"><span>9884219332</span></div></jdcmstagcontactno>
+					</div>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+   
+
+    <!--Footer -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap Plugins -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Template Plugins -->
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
